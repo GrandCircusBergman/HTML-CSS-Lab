@@ -46,7 +46,6 @@ p {
     width: 300px;
     height: 300px;
     position: absolute;
-    float: left;
     margin-top: -50px;
     margin-left: 600px;
     margin-right: 100px;
@@ -59,7 +58,6 @@ p {
     width: 150px;
     height: 150px;
     position: absolute;
-    float: left;
     margin-right: 50px;
     margin-top: -20px;
     margin-left: 850px;
@@ -73,7 +71,6 @@ p {
     width: 215px;
     height: 215px;
     position: absolute;
-    float: left;
     margin-right: 50px;
     margin-top: 100px;
     margin-left: 795px;
@@ -85,6 +82,13 @@ p {
     background-color: black;
     color: white;
     padding: 10px 30px;
-    margin-top: 40px;
     clear: both;
+}
+
+.scroll {
+    width: 200px;
+    display: block;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
