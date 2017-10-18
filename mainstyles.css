@@ -2,14 +2,17 @@ body {
     background-color: #f9fafc;
     font-family: 'Open Sans', sans-serif;
     padding: 10px 10px 0px 10px;
+    margin: 0;
 }
 
-.logo {
-    float: left;
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navLinks {
-    float: right;
+.flexItem {
+    margin: 20px;
 }
 
 a {
@@ -85,10 +88,11 @@ p {
     clear: both;
 }
 
-.scroll {
+.scrollContainer {
     width: 200px;
     display: block;
     margin-top: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
