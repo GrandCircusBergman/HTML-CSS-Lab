@@ -47,9 +47,10 @@ p {
     height: 300px;
     position: absolute;
     float: left;
-    margin-left: 0px;
+    margin-top: -50px;
+    margin-left: 600px;
     margin-right: 100px;
-
+    z-index: 1
   }
 
 .cirPurple {
@@ -60,6 +61,10 @@ p {
     position: absolute;
     float: left;
     margin-right: 50px;
+    margin-top: -20px;
+    margin-left: 850px;
+    padding-right: 10px;
+    z-index: 2
 }
 
 .cirOrange {
@@ -70,10 +75,9 @@ p {
     position: absolute;
     float: left;
     margin-right: 50px;
-}
-
-.circles {
-    margin-right: 5em;
+    margin-top: 100px;
+    margin-left: 795px;
+    z-index: 3
 }
 
 #scrollDown {
